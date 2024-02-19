@@ -1,0 +1,12 @@
+/* Webfont: LemansRegular */@font-face {
+    font-family: 'Lemans';
+    src: url('Lemans.eot'); /* IE9 Compat Modes */
+    src: url('Lemans.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Lemans.woff') format('woff'), /* Modern Browsers */
+         url('Lemans.woff2') format('woff2'), /* Modern Browsers */
+         url('Lemans.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
