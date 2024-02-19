@@ -60,3 +60,17 @@
 		<Sun />
 	</article>
 </section>
+
+<footer class="mt-48 py-12">
+	<nav class="container grid items-center justify-center">
+		<ul class="flex gap-2">
+			<li>
+				<a href="/impressum"> Impressum </a>
+			</li>
+			<li>&</li>
+			<li>
+				<a href="/datenschutz"> Datenschutz </a>
+			</li>
+		</ul>
+	</nav>
+</footer>

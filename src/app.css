@@ -62,7 +62,11 @@
 @tailwind utilities;
 
 @layer base {
-	p {
+	body {
+		@apply bg-blue;
+	}
+	p,
+	input {
 		@apply pt-8 first:pt-0 text-xl font-medium;
 	}
 }

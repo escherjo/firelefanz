@@ -1,4 +1,5 @@
 <script lang="ts">
+	//export const prerender = true;
 	import '../app.css';
 
 	import { onMount } from 'svelte';
@@ -68,11 +69,6 @@
 
 <svelte:window bind:innerWidth bind:innerHeight />
 
-<div bind:this={starWrapper} class="w-screen max-w-full overflow-x-hidden bg-blue h-full relative">
-	<main
-		class="min-h-screen relative z-10 text-white py-36 w-screen overflow-x-hidden"
-		style="background-image: url({AllStars})"
-	>
-		<slot />
-	</main>
-</div>
+<main class="min-h-screen relative z-10 text-white pt-36" style="background-image: url({AllStars})">
+	<slot />
+</main>
