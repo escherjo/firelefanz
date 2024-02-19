@@ -2,13 +2,14 @@
 	<svg
 		width="146"
 		height="176"
-		class="swing"
+		class="animate-swing origin-top"
 		viewBox="0 0 146 176"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 	>
 		<g clip-path="url(#clip0_3_470)">
 			<path
+				class="disco"
 				d="M97.0803 73.2078C84.8782 74.0337 72.4808 69.5402 60.5715 72.3091C51.8592 74.3494 44.4403 80.106 38.4856 86.7612C26.8203 99.7803 19.6943 117.366 21.6222 134.708C23.5502 152.051 35.5571 168.519 52.3473 173.45C64.3298 176.972 77.2885 174.616 89.0757 170.511C99.7892 166.77 110.381 161.305 117.092 152.197C124.633 141.971 126.292 128.563 125.78 115.884C125.389 106.241 123.73 96.3069 118.459 88.1943C113.187 80.0817 106.696 71.8719 97.0803 73.1835"
 				fill="#E94E21"
 			/>
@@ -66,26 +67,28 @@
 </div>
 
 <style class="postcss">
-	@keyframes swing {
-		20% {
-			transform: rotate(15deg);
+	@keyframes disco {
+		0% {
+			fill: #e94e21;
 		}
-		40% {
-			transform: rotate(-10deg);
+		29% {
+			fill: #e94e21;
 		}
-		60% {
-			transform: rotate(5deg);
+		30% {
+			fill: #9b96c9;
 		}
-		80% {
-			transform: rotate(-5deg);
+		69% {
+			fill: #9b96c9;
+		}
+		70% {
+			fill: #fdc000;
 		}
 		100% {
-			transform: rotate(0deg);
+			fill: #fdc000;
 		}
 	}
 
-	.swing {
-		animation: swing 2s infinite;
-		transform-origin: top center;
+	.disco {
+		animation: disco 1s infinite;
 	}
 </style>

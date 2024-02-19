@@ -63,6 +63,6 @@
 
 @layer base {
 	p {
-		@apply pt-8 first:pt-0;
+		@apply pt-8 first:pt-0 text-xl font-medium;
 	}
 }

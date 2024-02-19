@@ -3,6 +3,7 @@
 		width="121"
 		height="163"
 		viewBox="0 0 121 163"
+		class="animate-walk"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 	>

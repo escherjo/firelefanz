@@ -2,6 +2,7 @@
 	<svg
 		width="112"
 		height="163"
+		class="animate-[bounce_5s_ease-in-out_infinite]"
 		viewBox="0 0 112 163"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"

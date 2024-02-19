@@ -32,6 +32,31 @@ export default {
       fontFamily: {
         heading: ['Lemans', 'sans-serif'],
         sans: ['DMSans', 'sans-serif']
+      },
+
+      keyframes: {
+        swing: {
+          '20%': { transform: 'rotate(15deg)' },
+          '40%': { transform: 'rotate(-10deg)' },
+          '60%': { transform: 'rotate(5deg)' },
+          '80%': { transform: 'rotate(-5deg)' },
+          '100%': { transform: 'rotate(0deg)' }
+        },
+        swingEven: {
+          '0%': { transform: 'rotate(10deg)' },
+          '50%': { transform: 'rotate(-10deg)' },
+          '100%': { transform: 'rotate(10deg)' }
+        },
+        walk: {
+          '0%': { transform: 'rotate(0deg)' },
+          '50%': { transform: 'rotate(10deg)' },
+          '100%': { transform: 'rotate(0deg)' }
+        }
+      },
+      animation: {
+        swing: 'swing 2s ease-in-out infinite ',
+        swingEven: 'swingEven 5s ease-in-out infinite ',
+        walk: 'walk 1s ease-in-out infinite '
       }
     }
   },

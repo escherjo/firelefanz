@@ -1,14 +1,18 @@
 <script lang="ts">
+	import Button from '$lib/components/button.svelte';
 	import Animal from '$lib/components/animal.svelte';
 	import Disco from '$lib/components/disco.svelte';
 	import Header from '$lib/components/header.svelte';
+	import Mango from '$lib/components/mango.svelte';
 	import Ufo from '$lib/components/ufo.svelte';
+	import Sun from '$lib/components/sun.svelte';
 </script>
 
 <Header />
 <section class="bg-green w-full py-12 relative mt-20">
 	<Ufo />
 	<Disco />
+	<Mango />
 	<article class="container relative">
 		<div class="absolute top-16 left-0 -translate-x-full -translate-y-full">
 			<Animal />
@@ -36,15 +40,23 @@
 </section>
 
 <section class="bg-pink mt-56 py-12">
-	<article class="container">
-		<p>
-			For us however, Firlefanz transcends mere frivolities and should not be underestimated. Let us
-			co-create a temporary safer space, in which we explore its playful and caring aspects.
-		</p>
-		<p>
-			Let us cultivate the humorous and hedonistic art of the unnecessary. And return to the origins
-			of Firlefanz for an ecstatic rave throughout the night - or as those 14th century Middle High
-			Germans would have called it - a “sort of dance”.
-		</p>
+	<article class="container grid gap-4 grid-cols-12 relative">
+		<div class="col-span-7">
+			<p>
+				For us however, Firlefanz transcends mere frivolities and should not be underestimated. Let
+				us co-create a temporary safer space, in which we explore its playful and caring aspects.
+			</p>
+			<p>
+				Let us cultivate the humorous and hedonistic art of the unnecessary. And return to the
+				origins of Firlefanz for an ecstatic rave throughout the night - or as those 14th century
+				Middle High Germans would have called it - a “sort of dance”.
+			</p>
+		</div>
+		<div class="col-span-5 grid items-center justify-center">
+			<a href="/signup">
+				<Button primary={true} text="About" />
+			</a>
+		</div>
+		<Sun />
 	</article>
 </section>
