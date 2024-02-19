@@ -60,3 +60,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	p {
+		@apply pt-8 first:pt-0;
+	}
+}

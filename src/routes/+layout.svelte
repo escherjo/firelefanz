@@ -23,6 +23,7 @@
 	import Star17 from '$lib/assets/stars/star17.svg';
 	import Star18 from '$lib/assets/stars/star18.svg';
 	import Star19 from '$lib/assets/stars/star19.svg';
+	import AllStars from '$lib/assets/stars/allstars.svg';
 
 	const stars = [
 		Star1,
@@ -47,9 +48,11 @@
 	];
 
 	let starWrapper: HTMLDivElement;
+	let innerWidth: number;
+	let innerHeight: number;
 
 	// plcace all the stars randomly on the page
-	onMount(() => {
+	/* onMount(() => {
 		stars.forEach(() => {
 			const star = stars[Math.floor(Math.random() * stars.length)];
 			const img = new Image();
@@ -60,14 +63,16 @@
 
 			starWrapper.appendChild(img);
 		});
-	});
+	}); */
 </script>
 
-<div bind:this={starWrapper}>
-	<main class="w-full min-h-screen bg-blue text-white">
+<svelte:window bind:innerWidth bind:innerHeight />
+
+<div bind:this={starWrapper} class="w-screen max-w-full overflow-x-hidden bg-blue h-full relative">
+	<main
+		class="min-h-screen relative z-10 text-white py-36 w-screen overflow-x-hidden"
+		style="background-image: url({AllStars})"
+	>
 		<slot />
 	</main>
 </div>
-
-<style>
-</style>
