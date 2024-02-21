@@ -48,3 +48,24 @@
 		</defs>
 	</svg>
 </div>
+
+<style>
+	@keyframes sun {
+		0% {
+			fill: #fdc000;
+		}
+		30% {
+			fill: #00a55f;
+		}
+		50% {
+			fill: #ef97db;
+		}
+		100% {
+			fill: #fdc000;
+		}
+	}
+
+	.sun {
+		animation: sun 3s infinite;
+	}
+</style>
