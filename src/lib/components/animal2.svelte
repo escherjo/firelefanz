@@ -1,4 +1,4 @@
-<div class="absolute bottom-4 right-20">
+<div class="absolute bottom-4 right-20 hidden lg:block">
 	<svg
 		width="227"
 		height="261"

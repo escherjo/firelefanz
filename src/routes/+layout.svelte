@@ -68,6 +68,9 @@
 
 <svelte:window bind:innerWidth bind:innerHeight />
 
-<main class="min-h-screen relative z-10 text-white pt-36" style="background-image: url({AllStars})">
+<main
+	class="min-h-screen relative z-10 text-white lg:pt-36"
+	style="background-image: url({AllStars})"
+>
 	<slot />
 </main>

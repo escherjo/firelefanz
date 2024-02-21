@@ -1,4 +1,4 @@
-<div class="absolute -top-3 right-10">
+<div class="absolute -top-3 right-10 opacity-20 lg:opacity-100">
 	<svg
 		width="174"
 		height="805"
