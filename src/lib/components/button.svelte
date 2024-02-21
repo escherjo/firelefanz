@@ -4,7 +4,7 @@
 </script>
 
 <button
-	class="rounded-full px-8 py-4 border-2 border-white hover:-rotate-6 transition-all duration-300 hover:scale-105"
+	class="rounded-full px-8 py-4 border-2 border-white hover:-rotate-6 transition-all duration-300 hover:scale-105 uppercase"
 	class:bg-green={primary}
 	class:bg-pink={!primary}
 >
