@@ -25,12 +25,13 @@
 <svelte:window on:load={Tally.loadEmbeds()} />
 
 <iframe
-	data-tally-src="https://tally.so/embed/wgM7p4?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+	data-tally-src="https://tally.so/embed/w2NOve?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
 	loading="lazy"
 	width="100%"
-	height="621"
+	height="42"
 	frameborder="0"
 	marginheight="0"
 	marginwidth="0"
-	title="null"
+	title="No FirleFANZ 
+without a FirlePLAN"
 ></iframe>

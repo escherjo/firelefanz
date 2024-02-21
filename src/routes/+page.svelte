@@ -16,8 +16,12 @@
 		return str.split(/\r\n|\r|\n/);
 	};
 
-	const pink = splitByNewLine(content.acf.pink);
-	const green = splitByNewLine(content.acf.green);
+	let pink = splitByNewLine(content.acf.pink);
+	let green = splitByNewLine(content.acf.green);
+
+	// remove all empty strings from the array
+	pink = pink.filter((item) => item !== '');
+	green = green.filter((item) => item !== '');
 </script>
 
 <Header />
