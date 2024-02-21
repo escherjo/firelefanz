@@ -379,4 +379,9 @@
 	h2 {
 		@apply text-4xl font-heading mt-12;
 	}
+
+	p,
+	li {
+		@apply font-normal text-sm font-sans;
+	}
 </style>
