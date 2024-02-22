@@ -40,7 +40,7 @@
 </section>
 
 <section class="bg-pink mt-56 py-12">
-	<article class="container grid gap-4 lg:grid-cols-12 relative">
+	<article class="container grid gap-8 lg:gap-4 lg:grid-cols-12 relative">
 		<div class="lg:col-span-7">
 			{#each pink as item}
 				<p>{item}</p>

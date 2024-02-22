@@ -1,4 +1,4 @@
-<div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-full">
+<div class="absolute -bottom-12 lg:bottom-0 left-1/2 -translate-x-1/2 translate-y-full">
 	<svg
 		width="163"
 		height="161"
